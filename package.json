@@ -13,7 +13,6 @@
     "@radix-ui/react-slot": "^1.1.0",
     "@sendgrid/mail": "^8.1.4",
     "@tanstack/react-query": "^5.100.9",
-    "@web3modal/wagmi": "^5.1.11",
     "bcryptjs": "^2.4.3",
     "class-variance-authority": "^0.7.0",
     "cloudinary": "^2.5.1",
@@ -38,8 +37,9 @@
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "validator": "^13.12.0",
-    "viem": "^2.48.8",
-    "wagmi": "^3.6.9"
+    "wagmi": "^2.12.0",
+    "viem": "^2.17.0",
+    "@web3modal/wagmi": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
