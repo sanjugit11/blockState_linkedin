@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import Link from 'next/link'
 import { SignInModal } from './auth/sign-in-modal'
-import { useWeb3Modal } from '@web3modal/wagmi/react'
 import { usePathname } from 'next/navigation'
 import { Menu, X } from 'lucide-react'
 
@@ -12,7 +11,6 @@ export function Navbar() {
   const [isSignInOpen, setIsSignInOpen] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const pathname = usePathname()
-  const { open } = useWeb3Modal()
 
   const isActive = (path: string) => pathname === path
 
